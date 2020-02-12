@@ -3,7 +3,7 @@
 				
 				<div id="cardList">
 					<div class="card d-none">
-						<div id="cardHeader" class="card-header display-4"></div>
+						<div id="cardHeader" class="card-header display-4 gradient"></div>
 						<div id="cardBody" class="card-body">
 							
 							<!-- City Summary -->
@@ -22,7 +22,7 @@
 
 							<!-- City Weather Details -->
 							<div class="card col-12 col-sm-12 col-md-12 col-lg-8 mt-4 offset-lg-2" id="weatherWidget">
-								<div class="mt-1">Weather Forecast</div>
+								<div class="mt-1 gradient">Weather Forecast</div>
 								<div class="card-body weather">
 									
 									<div class="weather-icon d-inline">
@@ -30,7 +30,7 @@
 									</div>									
 									
 									<div class="w-details">
-										<div class="temp display-4"></div>
+										<div class="temp display-4 gradient"></div>
 										<div class="description font-italic"></div>
 										<div class="humidity"></div>
 									</div>
@@ -44,7 +44,7 @@
 
 							<!-- Venues -->
 							<div class="venues mt-4">
-								<p class="venues-header display-4 pb-3"></p>
+								<p class="venues-header display-4 pb-3 gradient"></p>
 								<div class="venue-list">
 									
 								</div>

@@ -7,7 +7,7 @@ body{
 	background: #243447;
 }
 
-.display-4{
+.gradient{
     background: -webkit-linear-gradient(90deg,#ff8a00,#e52e71);
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
