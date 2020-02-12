@@ -111,7 +111,7 @@ function showVenues(city){
 			$(".venue-list").children().remove();
 			venues = data.response.venues;
 			//console.log(venues[0].id);
-			showVenuesTips(venues[0].id);
+			//showVenuesTips(venues[0].id);
 			venues.map( (item, index)=>{
 				$(".venue-list").append(`<h5> - ${item.name} </h5>`);
 				$(".venue-list").append(`<p class='v-address'>Address: ${ isEmpty(item.location.formattedAddress[2]) } ${ isEmpty(item.location.formattedAddress[1]) } ${ isEmpty(item.location.formattedAddress[3]) } </p>`);
