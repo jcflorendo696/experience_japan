@@ -15,9 +15,9 @@ Experience Japan! is a friendly Tourist App where users can see the current weat
 
 ## UI and UX Implementation.
 
-On development of the application I opted for dark-mode theme to make it easy for the eyes and for maximum readability. I also implemented gradient-styled headers with high-contrast to make the major sections of the app more readable and stand-out.
+On development of the application, I opted for dark-mode theme to make it easy for the eyes of the users and for maximum readability. I also implemented gradient-styled headers with high-contrast to make the major sections stand-out and gives a cue of division of sections. Buttons are large to make it more pronounced and easy to press since the app can be also deployed in touch-screens monitors or via smartphone.
 
-## Code Implementation
+## Code Implementation / Technical
 
 The app is made of the following technology stack:
 
@@ -27,5 +27,7 @@ The app is made of the following technology stack:
 - JavaScript ES6
 - PHP / Laravel 6 / Laravel Blade
 - Bootstrap 
-- FourSquare API
-- OpenWeather API
+- FourSquare Venues API
+- OpenWeather 3-Hour Interval API
+
+The front-end files are separated via the blade templates to make it modular and easier to maintain in the future. As for the API we communicated with it via fetch Vanilla JS and the DOM Manipulation was made with jQuery to assemble the UI parts of the application.

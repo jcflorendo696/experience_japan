@@ -119,20 +119,3 @@ function showVenues(city){
 			
 		})	
 }
-
-
-
-function showVenuesTips(venue_id){
-
-	const id 		= "ZATB4YZXJXKO1NPGXDEKBM03VOKQXRSTLHEYLARLNFB51X3S";
-	const secret 	= "GBVICPZJQFHU2ETEQFES2XV3SNEYZEOAWWSNATVIFYQDFMEW";
-	const url 		= `https://api.foursquare.com/v2/venues/${venue_id}/tips?client_id=${id}&client_secret=${secret}&v=20200101`;
-
-
-	// fetch(url)
-	// 	.then( res => res.json())
-	// 	.then( data => {
-	// 		console.log(data);
-	// 	})
-
-}

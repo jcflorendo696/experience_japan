@@ -11,7 +11,7 @@
 						</select>
 					</div>
 					<div class="form-group">
-						<button class="btn btn-custom" onclick="getWeather()">Attraction Details</button>	
+						<button class="btn btn-lg btn-custom" onclick="getWeather()">Attraction Details</button>	
 					</div>
 				</div>
 			</div>
